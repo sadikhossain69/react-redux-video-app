@@ -24,7 +24,7 @@ const LikeUnlike = () => {
                     <div class="shrink-0">
                         <img
                             class="w-5 block"
-                            src={Unlike}
+                            src={Unlike} 
                             alt="Unlike"
                         />
                     </div>
