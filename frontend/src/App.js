@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/Home';
 import Video from './pages/Video';
+import PageNotFound from './shared/PageNotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/videos/:videoId' element={<Video />} />
+        <Route path='*' element={<PageNotFound />} />
       </Routes>
 
       <Footer />
